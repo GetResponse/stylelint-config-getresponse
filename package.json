@@ -21,7 +21,7 @@
     "url": "git+https://github.com/getresponse/stylelint-config-getresponse.git"
   },
   "scripts": {
-    "lint": "stylelint .",
+    "lint": "eslint .",
     "test": "npm run lint"
   },
   "devDependencies": {
