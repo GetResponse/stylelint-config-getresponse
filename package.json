@@ -1,0 +1,36 @@
+{
+  "name": "stylelint-config-getresponse",
+  "version": "1.0.0",
+  "description": "GetResponse stylelint shareable config",
+  "keywords": [
+    "config",
+    "getresponse",
+    "styleguide",
+    "stylelint",
+    "stylelintconfig"
+  ],
+  "homepage": "https://github.com/getresponse/stylelint-config-getresponse#readme",
+  "bugs": {
+    "url": "https://github.com/getresponse/stylelint-config-getresponse/issues"
+  },
+  "license": "MIT",
+  "author": "Rafał Maciejewski (https://github.com/rafalmaciejewski)",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getresponse/stylelint-config-getresponse.git"
+  },
+  "scripts": {
+    "lint": "stylelint .",
+    "test": "npm run lint"
+  },
+  "devDependencies": {
+    "eslint": "^4.8.0",
+    "eslint-config-getresponse-base": "^1.0.0",
+    "eslint-plugin-import": "^2.7.0",
+    "stylelint": "^8.2.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^8.2.0"
+  }
+}

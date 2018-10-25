@@ -1,0 +1,6 @@
+{
+  "extends": "eslint-config-getresponse-base",
+  "rules": {
+    "quote-props": "off"
+  }
+}
