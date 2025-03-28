@@ -1,8 +1,5 @@
 module.exports = {
-    plugins: [
-        '@stylistic/stylelint-plugin',
-    ],
-    extends: 'stylelint-config-standard',
+    extends: ['stylelint-config-standard', '@stylistic/stylelint-config'],
     rules: {
         'function-url-quotes': [
             'always',
@@ -16,29 +13,10 @@ module.exports = {
         'no-unknown-animations': [true, { severity: 'warning' }],
         'color-named': 'never',
 
-        '@stylistic/color-hex-case': 'lower',
         '@stylistic/number-leading-zero': 'never',
-        '@stylistic/number-no-trailing-zeros': true,
         '@stylistic/string-quotes': 'single',
-        '@stylistic/unit-case': 'lower',
-        '@stylistic/property-case': 'lower',
-        '@stylistic/declaration-bang-space-after': 'never',
-        '@stylistic/declaration-bang-space-before': 'always',
-        '@stylistic/declaration-colon-space-before': 'never',
-        '@stylistic/declaration-colon-space-after': 'always',
-        '@stylistic/declaration-block-trailing-semicolon': 'always',
-        '@stylistic/block-closing-brace-empty-line-before': 'never',
         '@stylistic/indentation': 4,
-        '@stylistic/max-line-length': 120,
-        '@stylistic/no-eol-whitespace': true,
-        '@stylistic/no-empty-first-line': true,
-        '@stylistic/no-extra-semicolons': true,
         '@stylistic/named-grid-areas-alignment': true,
-        '@stylistic/at-rule-name-case': 'lower',
-        '@stylistic/at-rule-name-space-after': 'always',
-        '@stylistic/at-rule-semicolon-newline-after': 'always',
         '@stylistic/at-rule-semicolon-space-before': 'never',
-        '@stylistic/media-query-list-comma-space-after': 'always',
-        '@stylistic/media-query-list-comma-space-before': 'never',
     },
 };

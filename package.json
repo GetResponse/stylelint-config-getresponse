@@ -29,8 +29,8 @@
     "test": "npm run lint"
   },
   "dependencies": {
-    "stylelint-config-standard": "^37.0.0",
-    "@stylistic/stylelint-plugin": "^3.1.2"
+    "@stylistic/stylelint-config": "^2.0.0",
+    "stylelint-config-standard": "^37.0.0"
   },
   "devDependencies": {
     "@getresponse/eslint-config": "^8.1.1",
