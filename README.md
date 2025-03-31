@@ -1,9 +1,8 @@
-# stylelint-config-getresponse
+# @getresponse/stylelint-config
 
-[![npm version](https://badge.fury.io/js/stylelint-config-getresponse.svg)](https://badge.fury.io/js/stylelint-config-getresponse)
+[![npm version](https://badge.fury.io/js/@getresponse%2Fstylelint-config.svg)](https://badge.fury.io/js/@getresponse%2Fstylelint-config)
 [![Build Status](https://github.com/GetResponse/stylelint-config-getresponse/actions/workflows/main.yml/badge.svg)](https://github.com/GetResponse/stylelint-config-getresponse/actions)
-[![Dependencies](https://img.shields.io/david/getresponse/stylelint-config-getresponse.svg)](https://david-dm.org/getresponse/stylelint-config-getresponse)
-[![peerDependencies Status](https://david-dm.org/getresponse/stylelint-config-getresponse/peer-status.svg)](https://david-dm.org/getresponse/stylelint-config-getresponse?type=peer)
+![Dependencies](https://img.shields.io/librariesio/github/GetResponse/stylelint-config-getresponse.svg)
 [![License](http://img.shields.io/:license-mit-blue.svg)](http://badges.mit-license.org)
 
 ---
@@ -13,7 +12,7 @@ This package contains all of our stylelint rules. It requires [stylelint](https:
 1. Install correct versions of each dependant package:
 
    ```bash
-   npx install-peerdeps --dev stylelint-config-getresponse
+   npm install --save-dev @getresponse/stylelint-config
    ```
 
-2. Add `"extends": "stylelint-config-getresponse"` to your stylelint config.
+2. Add `"extends": "@getresponse/stylelint-config"` to your stylelint config.

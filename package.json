@@ -1,6 +1,6 @@
 {
-  "name": "stylelint-config-getresponse",
-  "version": "2.0.0",
+  "name": "@getresponse/stylelint-config",
+  "version": "0.0.0",
   "description": "GetResponse stylelint shareable config",
   "keywords": [
     "config",
@@ -18,7 +18,7 @@
     "url": "git+https://github.com/getresponse/stylelint-config-getresponse.git"
   },
   "license": "MIT",
-  "author": "Rafał Maciejewski (https://github.com/rafalmaciejewski)",
+  "author": "GetResponse",
   "main": "index.js",
   "files": [
     "index.js"
@@ -28,24 +28,16 @@
     "release": "semantic-release",
     "test": "npm run lint"
   },
+  "dependencies": {
+    "@stylistic/stylelint-config": "^2.0.0",
+    "stylelint-config-standard": "^37.0.0"
+  },
   "devDependencies": {
-    "@semantic-release/changelog": "^5.0.1",
-    "@semantic-release/commit-analyzer": "^8.0.1",
-    "@semantic-release/git": "^9.0.0",
-    "@semantic-release/github": "^7.2.1",
-    "@semantic-release/npm": "^7.1.1",
-    "@semantic-release/release-notes-generator": "^9.0.2",
-    "@typescript-eslint/eslint-plugin": "^4.22.0",
-    "eslint": "^7.24.0",
-    "eslint-config-getresponse-base": "^5.2.3",
-    "eslint-config-prettier": "^8.2.0",
-    "eslint-plugin-jest": "^24.3.5",
-    "prettier": "^2.2.1",
-    "semantic-release": "^17.4.2",
-    "stylelint": "^13.12.0",
-    "typescript": "^4.2.4"
+    "@getresponse/eslint-config": "^8.1.1",
+    "eslint": "^8.57.1",
+    "semantic-release": "^24.2.3"
   },
   "peerDependencies": {
-    "stylelint": "^13.12.0"
+    "stylelint": "^16.17.0"
   }
 }
