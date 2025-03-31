@@ -1,4 +1,4 @@
-# @getrespone/stylelint-config
+# @getresponse/stylelint-config
 
 [![npm version](https://badge.fury.io/js/@getresponse%2Fstylelint-config.svg)](https://badge.fury.io/js/@getresponse%2Fstylelint-config)
 [![Build Status](https://github.com/GetResponse/stylelint-config-getresponse/actions/workflows/main.yml/badge.svg)](https://github.com/GetResponse/stylelint-config-getresponse/actions)
@@ -12,7 +12,7 @@ This package contains all of our stylelint rules. It requires [stylelint](https:
 1. Install correct versions of each dependant package:
 
    ```bash
-   npm install --save-dev @getrespone/stylelint-config
+   npm install --save-dev @getresponse/stylelint-config
    ```
 
-2. Add `"extends": "@getrespone/stylelint-config"` to your stylelint config.
+2. Add `"extends": "@getresponse/stylelint-config"` to your stylelint config.
