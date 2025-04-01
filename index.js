@@ -13,6 +13,7 @@ module.exports = {
         'no-unknown-animations': [true, { severity: 'warning' }],
         'color-named': 'never',
 
+        '@stylistic/max-line-length': 140,
         '@stylistic/number-leading-zero': 'never',
         '@stylistic/string-quotes': 'single',
         '@stylistic/indentation': 4,
