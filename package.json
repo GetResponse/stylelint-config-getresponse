@@ -21,7 +21,10 @@
   "author": "GetResponse",
   "main": "index.js",
   "files": [
-    "index.js"
+    "index.js",
+    "css.js",
+    "sass.js",
+    "stylus.js"
   ],
   "scripts": {
     "lint": "eslint .",
@@ -30,7 +33,9 @@
   },
   "dependencies": {
     "@stylistic/stylelint-config": "^2.0.0",
-    "stylelint-config-standard": "^37.0.0"
+    "stylelint-config-standard": "^37.0.0",
+    "stylelint-config-standard-scss": "^14.0.0",
+    "stylelint-stylus": "^1.0.0"
   },
   "devDependencies": {
     "@getresponse/eslint-config": "^8.1.1",
